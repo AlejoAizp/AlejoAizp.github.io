@@ -1,0 +1,185 @@
+body{
+    font-family: 'Press Start 2P', cursive;
+
+  background-image: url(https://i.pinimg.com/originals/d6/ad/91/d6ad9187438bce39864802d560ce73b5.gif);
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    top: 0;
+    
+    /*COLORES: #051C27(azul) #black (negro) #01c4e7 (azul neon) #white (blanco)*/
+}
+
+.FondoLoading{
+background-image: url(https://i.pinimg.com/originals/9e/20/68/9e2068e2300bac6574371f9ebfa126bd.gif);
+ height: 100vh;
+ width: 100vw;
+ position: absolute;
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+.LoadingGif{
+    margin-top: 35vh;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+.Pagina{
+    display: none;
+    text-align: center;
+    
+
+}
+#gif{
+    height: 30vh;
+    width: 40vh;
+    background-color: black;  
+}
+
+.PaginaFondo{
+height: 100vh;
+width: 100vw;
+margin-right: auto;
+margin-left: auto;
+
+
+}
+
+.Hero{
+    width: 100%;
+    padding-top: 1vh;
+    font-size: 4vh;
+    margin: 0;
+    background-image: url(https://i.pinimg.com/originals/1e/56/6c/1e566c675acb223b35069d5cedc78d84.gif);
+    display: none;
+    font-weight: bold;
+  
+    
+}
+
+
+.calavera{
+    display: none;
+    height: 20vh;
+}
+
+.calavera:hover{
+   height: 1px;
+}
+
+.proyectos{
+font-size: 4vh;
+width: 100%;
+font-weight: bold;
+}
+
+.imagenjoyeria{
+    height: 35vh;
+    width: 27vw;
+    text-align: center;
+    float: left;
+    background-size:cover;
+    background-image: url(https://i.pinimg.com/originals/1e/56/6c/1e566c675acb223b35069d5cedc78d84.gif);
+  margin-left: 7vh;
+  display: none;
+}
+.proyectos{
+    display: none;
+}
+
+
+.imagenalejo{
+    height: 35vh;
+    width: 27vw;
+    text-align: center;
+    float: left;
+    background-size:cover;
+  background-image: url(https://i.pinimg.com/originals/1e/56/6c/1e566c675acb223b35069d5cedc78d84.gif);
+  margin-left: 10vh;
+  display: none;
+}
+.imagenfirebase{
+    height: 35vh;
+    width: 27vw;
+    text-align: center;
+    float: left;
+    background-size:cover;
+    background-image: url(https://i.pinimg.com/originals/1e/56/6c/1e566c675acb223b35069d5cedc78d84.gif);
+  margin-left: 10vh;
+  display: none;
+}
+
+.imagenjoyeria:hover{
+background-image: url(https://i.pinimg.com/originals/af/89/ca/af89ca540d452e4decd798129a8e6f33.gif);
+background-size:cover;
+display: flex;
+animation: muestraDatos 2000ms ease-in-out both ;
+height: 100vh;
+width: 50%;
+
+}
+.imagenalejo:hover{
+    background-image: url(https://i.pinimg.com/originals/89/d4/6a/89d46a730f2eaa50bd7fb20ecb8ab25b.gif);
+    background-size:cover;
+    display: flex;
+    float: left;
+    height: 100vh;
+    
+    animation: muestraDatos 500ms ease-in-out both ;
+    }
+    
+  
+    
+
+.jewerlytext{
+    font-size: 3vh;
+    font-weight: bold;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: #01c4e7;
+}
+
+.jewerlytext:hover{
+display: none;
+color:transparent;
+
+}
+.botonclick{
+    width: 30vh;
+    height: 30vh;
+    background-image: url(https://i.pinimg.com/564x/2d/27/d8/2d27d87bd616174304806e0e9facc74c.jpg);
+    background-size: cover;
+    color: white;
+    display: none;
+    
+}
+.imagenoculta{
+    background-image: url(https://i.pinimg.com/originals/9d/37/26/9d3726f68f6b0295e1016b89c374b6cb.gif);
+   
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.lorem{
+    display: none;
+    font-size: 100vh;
+}
+
+
+@keyframes muestraDatos{           /*MENU ANIMADO JS*/
+
+    from{opacity: 0;}
+    to {opacity: 1;}
+    
+    } 
+    
